@@ -26,7 +26,10 @@ namespace SALT
                             while(!streamReader.EndOfStream)
                             {
                                 source += streamReader.ReadToEnd();
-                                Console.WriteLine(source);
+                                
+                                Analyzer analyzer = new Analyzer();
+
+                                
                             }
                         }
                     }
