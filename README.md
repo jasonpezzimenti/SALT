@@ -7,3 +7,8 @@ App -> () {
   }
 }
 ```
+
+Output:
+```
+Hello, Jason.
+```
