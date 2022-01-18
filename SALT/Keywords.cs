@@ -19,7 +19,9 @@ namespace SALT
             DECIMAL,
             FLOAT,
             OUT,
-            WITH
+            WITH,
+            EXPECT,
+            INPUT
         }
 
         public static ReservedKeywords ReservedKeyword { get; set; }

@@ -8,12 +8,11 @@ namespace SALT
 {
     public class Analyzer
     {
-        public static List<string> Tokens;
+        public enum Tokens { }
 
-        public Analyzer()
-        {
-            Tokens = new List<string>();
-        }
+        public Tokens Token { get; set; }
+
+        public Analyzer() { }
 
         public void Analyze(string input)
         {
@@ -28,9 +27,6 @@ namespace SALT
             return input[index];
         }
 
-        //public string Peek(string input, int index, int lastIndex)
-        //{
-            
-        //}
+
     }
 }
