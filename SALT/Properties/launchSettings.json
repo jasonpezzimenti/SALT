@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "SALT": {
-      "commandName": "Project",
-      "commandLineArgs": "C:\\Test.txt"
-    }
-  }
-}
